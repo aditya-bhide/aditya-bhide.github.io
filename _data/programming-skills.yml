@@ -1,0 +1,16 @@
+- name: Python
+  percentage: 80
+  color: dark
+
+- name: ML / DL Frameworks
+  percentage: 70
+  color: success
+
+- name: Data Science
+  percentage: 75
+  color: danger
+
+- name: Java
+  percentage: 60
+  color: info
+

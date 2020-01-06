@@ -1,0 +1,68 @@
+## Org: https://youssefraafatnasry.github.io/portfolYOU/docs/
+## Docs: https://youssefraafatnasry.github.io/portfolYOU/docs/
+
+### Site Settings ###
+title               : Aditya Bhide
+description         : >-                               # >- means to ignore newlines until "url:"
+                      Life is like a boat...
+
+url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository          : adityauchiha.github.io    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+# remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+
+### Author Info ###
+author:
+  name              : Aditya Bhide
+  image             : assets/aditya.jpg
+  email             : adityabhide1@gmail.com
+  instagram         : adityabhide4
+  github            : adityauchiha
+  linkedin          : adityabhide4
+  twitter           : adityabhide4
+# medium            : your_username
+# behance           : your_username
+# dribbble          : your_username
+# facebook          : your_username
+# gitlab            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Pagination ###
+paginate: 6
+paginate_path: "/articles/page-:num/"
+
+
+### Posts Permalink ###
+permalink: articles/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+
+### Exclude from processing ###
+# exclude:
+# - README.md
+# - CONTRIBUTING.md
+# - LICENSE
+# - Gemfile
+# - Gemfile.lock

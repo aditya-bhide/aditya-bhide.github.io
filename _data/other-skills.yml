@@ -1,0 +1,15 @@
+- name: Singing
+  percentage: 80
+  color: info
+
+- name: Synth
+  percentage: 95
+  color: danger
+
+- name: Drawing
+  percentage: 75
+  color: warning
+
+- name: Basketball
+  percentage: 70
+  color: dark
